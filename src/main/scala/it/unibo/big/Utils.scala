@@ -1,5 +1,6 @@
 package it.unibo.big
 
+import it.unibo.big.temporal.TemporalScale
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.sql.SparkSession

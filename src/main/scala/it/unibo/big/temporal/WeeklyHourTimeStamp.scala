@@ -1,4 +1,4 @@
-package it.unibo.big.temporal.weekly
+package it.unibo.big.temporal
 
 import org.joda.time.{DateTime, DateTimeZone}
 

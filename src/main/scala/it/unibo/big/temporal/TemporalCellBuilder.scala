@@ -1,10 +1,7 @@
 package it.unibo.big.temporal
 
-import it.unibo.big.{CTM2, TemporalScale}
-import it.unibo.big.TemporalScale.{AbsoluteScale, DailyScale, NoScale, WeeklyScale}
+import it.unibo.big.temporal.TemporalScale.{AbsoluteScale, DailyScale, NoScale, WeeklyScale}
 import it.unibo.big.Utils._
-import it.unibo.big.temporal.exception.InvalidTableSchemaException
-import it.unibo.big.temporal.weekly.WeeklyHourTimeStamp
 import org.apache.log4j.Logger
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.functions._
@@ -28,7 +25,6 @@ object TemporalCellBuilder {
      * @param bin_s        the border of the cell specified by input parameters.
      * @throws InvalidTableSchemaException if the table schema does not meet the requirements.
      */
-    @throws(classOf[InvalidTableSchemaException])
     def getData(sparkSession: SparkSession, tableName: String, outTable: String, timescale: TemporalScale, bin_t: Int, euclidean: Boolean, bin_s: Int): Unit = {
         val binLatitude: String = computeLatitudeQuery(euclidean, bin_s)
         val binLongitude: String = computeLongitudeQuery(euclidean, bin_s)

@@ -1,13 +1,11 @@
 package it.unibo.big
 
-import java.io.{BufferedWriter, File, FileWriter}
-import java.nio.file.{Files, Paths}
-import java.util.concurrent.{Callable, ExecutorService, Executors}
 import com.google.common.base.Objects
-import it.unibo.big.Carpenter.Itemset
 import org.apache.spark.rdd.RDD
 import org.roaringbitmap.RoaringBitmap
 
+import java.io.{BufferedWriter, File, FileWriter}
+import java.nio.file.{Files, Paths}
 import scala.collection.mutable
 import scala.io.Source
 
@@ -78,144 +76,7 @@ object Carpenter {
     }
 
     def main(args: Array[String]): Unit = {
-        //    val ex: ExecutorService = Executors.newFixedThreadPool(args(0).toInt)
         run("resources/closed0_trans.txt", 1, 1)
-        run("resources/milan_dataset.csv", 12, 100)
-        run("resources/milan_dataset.csv", 10, 100)
-        run("resources/milan_dataset.csv", 8, 100)
-        run("resources/milan_dataset.csv", 6, 100)
-        run("resources/milan_dataset.csv", 12, 90)
-        run("resources/milan_dataset.csv", 12, 80)
-        run("resources/milan_dataset.csv", 12, 70)
-        run("resources/milan_dataset.csv", 12, 60)
-        //    (0 until 2).foreach(_ => {
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 15)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 14)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 13)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 12)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 11)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 10)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 9)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 8)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 7)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 6)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 5)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 4)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_breastcancer_positive.txt", 3)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_synthetic_1000000_30_5.txt", 27)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_synthetic_1000000_30_5.txt", 21)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_synthetic_1000000_30_5.txt", 20)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_synthetic_1000000_30_5.txt", 19)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_synthetic_1000000_30_5.txt", 18)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_synthetic_1000000_30_5.txt", 17)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_synthetic_10000000_30_5.txt", 25)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_synthetic_10000000_30_5.txt", 24)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_synthetic_10000000_30_5.txt", 23)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_synthetic_10000000_30_5.txt", 22)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_synthetic_10000000_30_5.txt", 21)
-        //        }
-        //      })
-        //      ex.submit(new Callable[Set[Itemset]] {
-        //        def call(): Set[Itemset] = {
-        //          run("resources/PAMPA_synthetic_10000000_30_5.txt", 20)
-        //        }
-        //      })
-        //    })
-        //    ex.shutdown()
     }
 
     /**

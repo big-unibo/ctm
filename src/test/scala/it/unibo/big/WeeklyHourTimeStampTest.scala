@@ -1,6 +1,6 @@
 package it.unibo.big
 
-import it.unibo.big.temporal.weekly.WeeklyHourTimeStamp
+import it.unibo.big.temporal.WeeklyHourTimeStamp
 import org.junit.jupiter.api.Test
 
 class WeeklyHourTimeStampTest {
