@@ -24,7 +24,3 @@ Output result are stored on a Hive table named: `CTM__par1_val1__...__parN_valN.
 Unit tests are available via the `--debug` option on launch.
 
      rm results/CTM_stats.csv; git pull; ./gradlew
-
-Experimental tests are available by running:
-    
-     rm results/CTM_stats.csv; git pull; ./gradlew clean build shadowJar; sh run_CTM.sh
