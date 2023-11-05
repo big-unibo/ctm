@@ -1,3 +1,29 @@
+## [1.0.1](https://github.com/big-unibo/ctm/compare/1.0.0...1.0.1) (2023-11-05)
+
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v7.0.5 ([c3a3e15](https://github.com/big-unibo/ctm/commit/c3a3e1548892a6973d92d55144759c386034e8ee))
+* **deps:** update dependency notebook to v7.0.6 ([2bcd636](https://github.com/big-unibo/ctm/commit/2bcd6365c46e57f5d8d9f0d038a5a421fd24490b))
+* **deps:** update dependency numpy to v1.26.1 ([55cb8ac](https://github.com/big-unibo/ctm/commit/55cb8aca08ea232d956a87285470acebda4b6afa))
+* **deps:** update dependency scikit-learn to v1.3.2 ([9b4652f](https://github.com/big-unibo/ctm/commit/9b4652f5215f0539e383e651130d1af174b075ef))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.69 ([92907c9](https://github.com/big-unibo/ctm/commit/92907c98f7351d58502a12542d38ba33409b22b0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.70 ([0f20a5d](https://github.com/big-unibo/ctm/commit/0f20a5d9587eed23f37bf44680b3ac408e730423))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.71 ([f307e4a](https://github.com/big-unibo/ctm/commit/f307e4ae448801c9c8e769de4cd2294674477381))
+* **deps:** update node.js to 20.9 ([23dac53](https://github.com/big-unibo/ctm/commit/23dac53db8645fc9aab2d58473fc6c63fd881de9))
+* **deps:** update node.js to v20 ([0eddc38](https://github.com/big-unibo/ctm/commit/0eddc3853ba822309d78efbc402d531eea55b6ea))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.rogach:scallop_2.11 to v5.0.1 ([a239dfd](https://github.com/big-unibo/ctm/commit/a239dfd9e92e24c48f1897d120bcf89b2f2b4521))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.1 ([52f8272](https://github.com/big-unibo/ctm/commit/52f82729ea3dc943b9d1058badb2f568903bb630))
+* **deps:** update actions/setup-python digest to 65d7f2d ([d53fe1d](https://github.com/big-unibo/ctm/commit/d53fe1d67b2f6fa9f677f436742e6928cb04f05a))
+
 ## 1.0.0 (2023-10-05)
 
 
