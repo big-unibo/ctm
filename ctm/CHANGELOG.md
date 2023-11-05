@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/big-unibo/ctm/compare/1.0.1...1.0.2) (2023-11-05)
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.10.1 ([3bcb2e0](https://github.com/big-unibo/ctm/commit/3bcb2e08b9cbcad5106c3a5894694c0138cc8e03))
+
 ## [1.0.1](https://github.com/big-unibo/ctm/compare/1.0.0...1.0.1) (2023-11-05)
 
 
