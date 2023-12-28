@@ -50,7 +50,7 @@ dependencies {
     implementation 'org.scala-lang:scala-library:2.11.12'
     implementation 'org.scala-lang:scala-reflect:2.11.12'
     implementation 'org.scala-lang:scala-compiler:2.11.12'
-    implementation 'org.slf4j:slf4j-api:2.0.9'
+    implementation 'org.slf4j:slf4j-api:2.0.10'
     testCompileOnly 'org.slf4j:slf4j-simple:2.0.9'
     implementation 'org.apache.spark:spark-core_2.11:2.4.0-cdh6.2.0'
     implementation 'org.apache.spark:spark-sql_2.11:2.4.0-cdh6.2.0'
