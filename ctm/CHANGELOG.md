@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/big-unibo/ctm/compare/1.0.3...1.0.4) (2023-12-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-simple to v2.0.10 ([7bcc936](https://github.com/big-unibo/ctm/commit/7bcc9368a7c792cdb5b7ae247c08957f9c9a8586))
+
 ## [1.0.3](https://github.com/big-unibo/ctm/compare/1.0.2...1.0.3) (2023-12-29)
 
 
