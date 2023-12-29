@@ -1,3 +1,36 @@
+## [1.0.3](https://github.com/big-unibo/ctm/compare/1.0.2...1.0.3) (2023-12-29)
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.7.4 ([484816a](https://github.com/big-unibo/ctm/commit/484816a9a71aa6e6373b17c3238de344d7995914))
+* **deps:** update dependency numpy to v1.26.2 ([171748d](https://github.com/big-unibo/ctm/commit/171748d82442e9a020a268e776399ff498b9d11e))
+* **deps:** update dependency scipy to v1.11.4 ([15bada5](https://github.com/big-unibo/ctm/commit/15bada5641c2e58bfe69318b9aa81732404e8a22))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.72 ([63ec453](https://github.com/big-unibo/ctm/commit/63ec4539d38172bc205a35be68f50cb5ea77f5ff))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.74 ([fc52890](https://github.com/big-unibo/ctm/commit/fc528901ad74bf12ef2601747b8724f563e43d91))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.75 ([2dd3fc8](https://github.com/big-unibo/ctm/commit/2dd3fc84bea32888b92223b40ef45327a69eaa88))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.76 ([7c6fbbb](https://github.com/big-unibo/ctm/commit/7c6fbbbcb557837fb8e8d4923a2d72bcd22a1e4d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.77 ([52f0340](https://github.com/big-unibo/ctm/commit/52f0340049b2c168e25b211518d61ef08ea41318))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.78 ([3dfeab9](https://github.com/big-unibo/ctm/commit/3dfeab909c667114e6ba920da21ea50eb46d3b25))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.79 ([9d2574e](https://github.com/big-unibo/ctm/commit/9d2574eb0da1299512c2690a83c432ef0628d805))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.80 ([81d9208](https://github.com/big-unibo/ctm/commit/81d9208eecf8d9b83d3dbfd5bef10d31ae87a308))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.81 ([5d7a6ac](https://github.com/big-unibo/ctm/commit/5d7a6acd13ef48a14cb1b504c9cb169f090d53e4))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.82 ([5793610](https://github.com/big-unibo/ctm/commit/5793610ff20ed7996bf19e72345b70314ab2ca19))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.83 ([a6c50be](https://github.com/big-unibo/ctm/commit/a6c50be072ff5ec682ee37fb17982500a961a157))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.84 ([24af8df](https://github.com/big-unibo/ctm/commit/24af8df7c65921f1b65a9f5f4d38f8eb5bde7a60))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.85 ([2298c86](https://github.com/big-unibo/ctm/commit/2298c8698fa3b20c7e186e46273cdd6c9b25f577))
+* **deps:** update node.js to 20.10 ([54b8cab](https://github.com/big-unibo/ctm/commit/54b8cab36995016da2a5fe29febec24c20155de6))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.10 ([bc371a6](https://github.com/big-unibo/ctm/commit/bc371a6bc94b0f431ac6c7dccf78a039c2576b84))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-python action to v5 ([2092f4f](https://github.com/big-unibo/ctm/commit/2092f4fc5ea4f281bbac52390002a317f1b6419a))
+
 ## [1.0.2](https://github.com/big-unibo/ctm/compare/1.0.1...1.0.2) (2023-11-05)
 
 
