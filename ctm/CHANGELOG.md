@@ -1,3 +1,15 @@
+## [1.0.5](https://github.com/big-unibo/ctm/compare/1.0.4...1.0.5) (2024-01-09)
+
+
+### Dependency updates
+
+* **deps:** update dependency numpy to v1.26.3 ([e78d35e](https://github.com/big-unibo/ctm/commit/e78d35e4bbb29b2cc99e234f6972bb05e89e18af))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.11 ([44a608f](https://github.com/big-unibo/ctm/commit/44a608f1295e51d2fc95dcf0b4478f89430e40b7))
+
 ## [1.0.4](https://github.com/big-unibo/ctm/compare/1.0.3...1.0.4) (2023-12-29)
 
 
