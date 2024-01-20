@@ -3,4 +3,4 @@ notebook==7.0.7
 numpy==1.26.3
 pandas==1.5.3
 scikit-learn==1.4.0
-scipy==1.11.4
+scipy==1.12.0
