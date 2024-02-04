@@ -1,3 +1,18 @@
+## [1.0.7](https://github.com/big-unibo/ctm/compare/1.0.6...1.0.7) (2024-02-04)
+
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v7.0.7 ([5f4f56b](https://github.com/big-unibo/ctm/commit/5f4f56b05d8fbf8bd29594dc726e10d40cbce336))
+* **deps:** update dependency scikit-learn to v1.4.0 ([8540dbd](https://github.com/big-unibo/ctm/commit/8540dbd533c2991eff7944117f71dd86f815015f))
+* **deps:** update dependency scipy to v1.12.0 ([ed75661](https://github.com/big-unibo/ctm/commit/ed7566176c9456a12b97318376c5eb9924a17ad4))
+* **deps:** update node.js to 20.11 ([b5ef65f](https://github.com/big-unibo/ctm/commit/b5ef65f5d80a2eee94de964cff3af760a90ceba3))
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.10.2 ([e800913](https://github.com/big-unibo/ctm/commit/e8009134f7216159d5c709f6b4ce8f034bbcf172))
+
 ## [1.0.6](https://github.com/big-unibo/ctm/compare/1.0.5...1.0.6) (2024-01-09)
 
 
