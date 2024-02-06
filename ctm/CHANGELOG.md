@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/big-unibo/ctm/compare/1.0.7...1.0.8) (2024-02-06)
+
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.12 ([3346bef](https://github.com/big-unibo/ctm/commit/3346befb426dd0e2a0ec737f47b91285796ccb82))
+
 ## [1.0.7](https://github.com/big-unibo/ctm/compare/1.0.6...1.0.7) (2024-02-04)
 
 
