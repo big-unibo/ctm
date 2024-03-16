@@ -1,3 +1,21 @@
+## [1.0.9](https://github.com/big-unibo/ctm/compare/1.0.8...1.0.9) (2024-03-16)
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.7.5 ([34abdc7](https://github.com/big-unibo/ctm/commit/34abdc7435d6a66521644e026c2f292e21649311))
+* **deps:** update dependency notebook to v7.0.8 ([220aa9e](https://github.com/big-unibo/ctm/commit/220aa9e72590024655a2e00af4bdb7b31b6b04a7))
+* **deps:** update dependency notebook to v7.1.0 ([ee0f661](https://github.com/big-unibo/ctm/commit/ee0f66198bd15e41cf492cb033c4dccf5cf094e9))
+* **deps:** update dependency notebook to v7.1.1 ([a0d0138](https://github.com/big-unibo/ctm/commit/a0d01383472fd1b72130e58db9a4fc3c591aa11a))
+* **deps:** update dependency notebook to v7.1.2 ([47c3fd3](https://github.com/big-unibo/ctm/commit/47c3fd36740189b513352e5229978967ca31b7c8))
+* **deps:** update dependency numpy to v1.26.4 ([15f1dc7](https://github.com/big-unibo/ctm/commit/15f1dc7a315438eaa9397940dc41b2aaccd208e1))
+* **deps:** update dependency scikit-learn to v1.4.1.post1 ([a7dac0d](https://github.com/big-unibo/ctm/commit/a7dac0d5bbc929e9f2fbaa13b085a064343e0671))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.rogach:scallop_2.11 to v5.1.0 ([6e6dad3](https://github.com/big-unibo/ctm/commit/6e6dad397a86b098663cc5f4b9c6a5b7e550eeec))
+
 ## [1.0.8](https://github.com/big-unibo/ctm/compare/1.0.7...1.0.8) (2024-02-06)
 
 
