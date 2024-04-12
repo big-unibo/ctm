@@ -1,3 +1,22 @@
+## [1.0.10](https://github.com/big-unibo/ctm/compare/1.0.9...1.0.10) (2024-04-12)
+
+
+### Dependency updates
+
+* **deps:** update dependency scikit-learn to v1.4.2 ([5b44fc5](https://github.com/big-unibo/ctm/commit/5b44fc5494108ef0f3f39f5e04d1a5e6ca6cbbd5))
+* **deps:** update dependency scipy to v1.13.0 ([5ab14c3](https://github.com/big-unibo/ctm/commit/5ab14c35af256ddfcf6e11d58e204df0d5ef135a))
+* **deps:** update node.js to 20.12 ([755a1db](https://github.com/big-unibo/ctm/commit/755a1db959dc2014507ee397aeac0bc5c8af16f9))
+
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.13 ([6ddc65c](https://github.com/big-unibo/ctm/commit/6ddc65c96a3796298eab3e56c03b224dc2b5caf9))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-python digest to 82c7e63 ([048b45a](https://github.com/big-unibo/ctm/commit/048b45a35ed24c67f48770d21b405f3de17f4d75))
+
 ## [1.0.9](https://github.com/big-unibo/ctm/compare/1.0.8...1.0.9) (2024-03-16)
 
 
