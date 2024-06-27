@@ -1,3 +1,32 @@
+## [1.0.11](https://github.com/big-unibo/ctm/compare/1.0.10...1.0.11) (2024-06-27)
+
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v7.1.3 ([5ff9c55](https://github.com/big-unibo/ctm/commit/5ff9c552d228b5ca3d56dfe40ce09703431f4a88))
+* **deps:** update dependency notebook to v7.2.0 ([6be5734](https://github.com/big-unibo/ctm/commit/6be57348898eb02321f76f4086d1d248fcb52961))
+* **deps:** update dependency notebook to v7.2.1 ([76f6880](https://github.com/big-unibo/ctm/commit/76f6880ffa9a896b217058b77312e28dfdd6f12e))
+* **deps:** update dependency scikit-learn to v1.5.0 ([09b8531](https://github.com/big-unibo/ctm/commit/09b853170d9912538e747e74326c2da87b6bc8a5))
+* **deps:** update dependency scipy to v1.13.1 ([aa24862](https://github.com/big-unibo/ctm/commit/aa2486271bd0ba237a61824d5fed260b5c878f0d))
+* **deps:** update dependency scipy to v1.14.0 ([4a535cd](https://github.com/big-unibo/ctm/commit/4a535cd668405b8f9a7a85c7b672287ab75b2533))
+* **deps:** update node.js to 20.13 ([991fd5e](https://github.com/big-unibo/ctm/commit/991fd5efc0ebf73afd69a16c28894d31caf61f58))
+* **deps:** update node.js to 20.14 ([0882b13](https://github.com/big-unibo/ctm/commit/0882b13444067bb2a5cd9cc08d9496c05e4dd169))
+* **deps:** update node.js to 20.15 ([b7d8a48](https://github.com/big-unibo/ctm/commit/b7d8a48617288bdb0a4c0b21cc860f55a5a9aa9b))
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.10.3 ([e1ea346](https://github.com/big-unibo/ctm/commit/e1ea34646499094290d4e05c89103c6a6597b8ab))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.3 ([528ed3d](https://github.com/big-unibo/ctm/commit/528ed3da447710177f50250d4f08d0002ed6dd3e))
+* **deps:** update actions/checkout action to v4.1.4 ([fb0e9cf](https://github.com/big-unibo/ctm/commit/fb0e9cf6877b235d454671ddad142536ae2e23ac))
+* **deps:** update actions/checkout action to v4.1.5 ([25e28d1](https://github.com/big-unibo/ctm/commit/25e28d127fa63b3e64f32cd49a25e048af921fc0))
+* **deps:** update actions/checkout action to v4.1.6 ([6b02845](https://github.com/big-unibo/ctm/commit/6b02845e427b06fcf137ba808abb2d2d98de2d1c))
+* **deps:** update actions/checkout action to v4.1.7 ([4a034f8](https://github.com/big-unibo/ctm/commit/4a034f8cf99b7455bd14b82bffba753bf70b2150))
+
 ## [1.0.10](https://github.com/big-unibo/ctm/compare/1.0.9...1.0.10) (2024-04-12)
 
 
