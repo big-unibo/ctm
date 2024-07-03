@@ -2,5 +2,5 @@ matplotlib==3.7.5
 notebook==7.2.1
 numpy==1.26.4
 pandas==1.5.3
-scikit-learn==1.5.0
+scikit-learn==1.5.1
 scipy==1.14.0
