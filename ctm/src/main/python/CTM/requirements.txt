@@ -1,5 +1,5 @@
 matplotlib==3.7.5
-notebook==7.4.1
+notebook==7.4.2
 numpy==1.26.4
 pandas==1.5.3
 scikit-learn==1.6.1
