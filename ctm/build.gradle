@@ -65,8 +65,8 @@ dependencies {
     implementation 'org.rogach:scallop_2.11:6.0.0'
     testRuntime 'com.vladsch.flexmark:flexmark-all:0.64.8'
     testRuntimeOnly 'org.pegdown:pegdown:1.6.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.11.4'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.11.4'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:6.0.3'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:6.0.3'
 }
 
 defaultTasks 'clean', 'build', 'check', 'javadoc', 'shadowJar'
